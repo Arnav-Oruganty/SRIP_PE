@@ -1,0 +1,24 @@
+# Operating system and Python cache files
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local scratch work
+temp.py
+
+# Reproducible experiment data and outputs
+initial_phase_saves/
+ris_optimization_results/
+*.npy
+*.pkl
+*.mat
+*.eps
+*.pdf
+results*.txt
+
+# Source documentation diagrams
+!tree diagrams/*.pdf
+
+# Python packaging artifacts
+*.egg-info/
